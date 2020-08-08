@@ -1,0 +1,417 @@
+body{
+	margin:0px auto;
+    }
+.upload_report{
+	position: absolute;
+    top: 3px;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+	a:hover{
+		text-decoration:none;
+	}
+	#side_menu li a{
+	color:#FFF;
+	text-align:left;
+}
+	#side_menu li a:hover,#side_menu li a.active{
+	color:#000;	
+	background-color:#eee;
+}
+.username{
+	font-size:25px;
+	color:#00A1E5;
+	text-transform:capitalize;
+}
+.edit_btn{
+	background-color:#FFF !important;
+	border:1px solid #00A1E5 !important;
+	color:#00A1E5;
+}
+.edit_btn:hover{
+	color:#000;
+}
+#header{	
+	background-color:;
+	width:100%;
+	height:50px;
+	float:left;					
+}
+#ancher{
+	font-size:15px;
+	color:#80bfff;
+	text-decoration: None;
+	font-weight:bold;
+	float:left;
+	margin-left:10px;
+	margin-top:10px;	
+}
+#DoctorDb{
+	font-size:24px;
+	color:#80bfff;
+	text-decoration: None;
+	font-weight:bold;
+	margin-left:50px;
+	margin-top:15px;
+	float:left;
+}
+#button{
+	border-radius:3.5px;
+	font-size:15px; 
+	color:white;
+	font-weight:bold; 
+	float:left;
+	margin-left:905px;
+	margin-top:10px;	
+}
+#button1{
+	border-radius:3.5px;
+	font-size:15px; 
+	color:white;
+	font-weight:bold; 
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+}
+#button2{
+	border-radius:3.5px;
+	font-size:15px; 
+	color:white;
+	font-weight:bold; 
+	float:left;
+	margin-left:50px;
+	margin-top:10px;
+}
+#sidebar{
+	background-color: #33adff;
+	width:190px;
+	height:595px;
+	float:left;
+}
+#myaccount{
+	font-size:19px;
+	color:white;
+	width:150px;
+	text-decoration: None;
+	height:20px;
+	margin-left:20px;
+	margin-top:10px;
+	float:left;
+}
+#profile{
+	font-size:19px;
+	color:white;
+	background-color:#F0F0F0;
+	text-decoration: None;
+	background-image:url("../images/cover.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+	
+}
+.tab_cont{
+	padding:10px;
+	background-color:#FFF;
+	margin:20px 0;
+	text-align:center;
+	word-spacing: normal;
+	color:#00A1E5;
+	border-radius:5px;
+}
+.tab_cont:hover{
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+}
+.tab_cont i{
+	display:block;
+	margin-bottom:30px;
+	font-size:70px;
+}
+.tab_cont h3{
+	margin:10px 0;
+	font-size:25px;
+}
+.tab_cont p{
+	color:#000;
+	margin:10px 0;
+	font-size:16px;
+}
+#edit_pic{
+	margin-top:20px;
+	position:relative;
+}
+#pic_btn{
+	position:absolute;
+	top:0;
+	width:100%;
+	display:block;
+	border-radius:0;
+	z-index:1;
+}
+#profile_field{
+	position:absolute;
+	top:3px;
+	width:100%;
+	opacity:0;
+	cursor:pointer;
+	z-index:2;
+}
+/*	#fees
+		{
+			font-size:19px;
+			color:white;
+			width:200px;
+			height:20px;
+			text-decoration: None;
+			margin-left:20px;
+			margin-top:25px;
+			float:left;
+		}		
+	#time
+		{
+			font-size:19px;
+			color:white;
+			width:200px;
+			height:20px;
+			text-decoration: None;
+			margin-left:20px;
+			margin-top:25px;
+			float:left;
+		}
+	#meetings
+		{
+			font-size:19px;
+			color:white;
+			width:200px;
+			height:20px;
+			text-decoration: None;
+			margin-left:20px;
+			margin-top:25px;
+			float:left;
+		}
+	#info
+		
+		{
+			
+			background-color: ;
+			width:1150px;
+			height:595px;
+			float:left;
+		}
+	#backpic
+		{
+			border:1px solid #000000;
+			border-style:50px;
+			background-color:yellow;
+			width:100%;
+			height:300px;
+			float:left;
+			margin-left:0px;
+			margin-top:0px;
+			
+			
+		}
+	
+	#docpic
+		{
+			border:1px solid #000000;
+			border-style:50px;
+			background-color:white;
+			position:absolute;
+			width:250px;
+			height:250px;
+			float:left;
+			margin-left:50px;
+			margin-top:100px;
+			
+			
+		}
+	#detail
+		{
+			background-color:white;
+			width:100%;
+			height:300px;
+			float:left;
+			
+		}
+	#points
+		{
+			background-color:white;
+			width:302px;
+			height:300px;
+			float:left;
+			
+			
+		}
+		
+	#appointments
+		{
+			border:1px solid #000000;
+			width:250px;
+			height:40px;
+			background-color: #33adff;
+			font-size:20px;
+			color:white;
+			text-decoration: None;
+			float:left;
+			margin-left:50px;
+			margin-top:60px;	
+			padding:0px 0px 0px 0px;
+		}
+	#appointments p
+		{
+			margin:7px 0px 0px 0px;
+		}
+	#contact
+		{
+			border:1px solid #000000;
+			width:250px;
+			height:40px;
+			background-color:white ;
+			font-size:20px;
+			color:#33adff;
+			text-decoration: None;
+			float:left;
+			margin-left:50px;
+			margin-top:10px;	
+			padding:0px 0px 0px 0px;
+		}
+	#contact p
+		{
+			margin:7px 0px 0px 0px;
+		}		
+	#profilecomp
+		{
+			
+			background-color:white;
+			width:250px;
+			height:80px;
+			float:left;
+			font-size:20px;
+			color:#33adff;
+			margin-left:50px;
+			margin-top:5px;
+			
+		}
+	#percentage
+		{
+			background-color:grey;
+			width:210px;
+			height:10px;
+			float:left;
+			margin-left:17px;
+			border-radius:20px;
+		}
+	#per{
+		background-color:#33adff;
+		height:10px;
+		margin:0px 0px 0px 0px;
+		float:left;
+		border-radius:20px;
+		color:white;
+		font-size:10px;
+		
+	}
+	#name
+		{
+			background-color:white;
+			width:848px;
+			height:48px;
+			float:left;
+			font-size:30px;
+			color:#33adff;
+		}
+	#docname
+		{
+			background-color:white;
+			width:350px;
+			height:48px;
+			float:left;
+			
+		}
+	#rating
+		{
+			background-color:white;
+			width:300px;
+			height:48px;
+			float:left;
+			color:#33adff;
+			font-size:20px;
+			
+		}
+	#docedit	
+		{
+				background-color:white;
+				width:198px;
+				height:48px;
+				float:left;
+		}
+		
+.sideleft > p{
+		color:white;
+		border-radius:4px;
+		padding:10px 5px 10px 10px;
+		margin:1px;
+		text-align:left;
+		
+		
+	}
+	.sideleft > p:hover{
+		color:black;
+		background-color:#0285BB;
+	}
+		.sideleft > p > a{
+		color:inherit;
+		text-decoration:none;
+	}
+	
+	
+.navbar-brand
+	{	
+		
+		padding:15px 10px;
+		background-color:#F5F5F5;
+		
+		
+	}	
+#brandname{
+	color:#029FE6;
+	background-color:#F5F5F5;
+	font-size:20px;
+	//padding:5px 0px 0px 5px;
+	
+		
+	}
+
+#logoset
+	{
+		float:left;
+	}	
+#docpic
+	{
+	
+		//margin-left:300px;
+	}	
+	
+#profcover
+	{
+		background-color:yellow;
+		height:200px;
+		width:1099px;
+		float:left;
+		
+	}	
+#profleft
+	{	
+		background-color:green;
+		color:black;
+	}
+#profmain
+	{
+		
+		background-color:yellow;
+		float:left;
+	}
+	*/

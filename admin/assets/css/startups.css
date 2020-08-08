@@ -1,0 +1,159 @@
+body,h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+}
+#header{
+	width:90%;
+	height:50px;
+	margin:0 5%;
+	background-color:#4d4d4d;
+}
+#header>h4{
+	color:#FFF;
+	font-size:20px;
+	text-align:center;
+	line-height:50px;
+}
+#log a{
+	color:#000;
+	font-weight:bold;
+	}
+#log a:hover{
+	text-decoration:none;
+	color:#00a8e2;
+	background-color:transparent !important;
+	}
+#menu{
+	background-color:#00a8e2;
+	margin-bottom:30px;
+}
+#menu ul.nav-pills  a {
+	color:#FFF !important;
+}
+ul.nav-pills  a:hover {
+	background-color:#000;
+}
+#section{
+	overflow:hidden;
+	width:90%;
+	height:auto;
+	background-color:#0CC;
+	margin:0 5%;
+}
+.contt{
+	width:660px;
+	height:auto;
+	margin:0 20%;
+	padding-top:20px;
+}
+.fiel{
+	width:304px;
+	height:50px;
+	float:left;
+	padding:5px 0;
+}
+.fiel select{
+	width:304px;
+	height:25px;
+}
+.fiel h4{
+	font-size:16px;
+	font-weight:normal;
+}
+.fiel input{
+	width:300px;
+	height:25px;
+}
+.fiel:nth-child(odd){
+	margin:0;
+}
+.fiel:nth-child(even){
+	margin-left:50px;
+}
+#submit{
+	clear:both;
+	width:500px;
+	height:35px;
+	margin:30px auto;
+	background-color:gray;
+}
+#submit>input{
+	width:100%;
+	height:100%;
+	font-size:16px;
+}
+#show-data{
+	width:90%;
+	height:auto;
+	background-color:#093;
+	margin:0 5%;
+	display:none;
+}
+#screen{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgba(255,255,255,0.8);
+	z-index:1;
+	display:none;
+	}
+#screen_msg{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgba(255,255,255,0.8);
+	z-index:1;
+	display:none;
+	}
+#screen_msg > a#ref{
+	display:block;
+	width:50px;
+	height:50px;
+	background-color:#000;
+	color:#FFF;
+	border-radius:50%;
+	line-height:50px;
+	text-align:center;
+	font-weight:bold;
+	font-size:18px;
+	text-decoration:none;
+	position:absolute;
+	right:50%;
+	top:60%;
+	margin:-50px 0 0 -50px;
+	display:none;
+	}
+#screen_msg > a#error{
+	display:block;
+	width:50px;
+	height:50px;
+	background-color:#000;
+	color:#FFF;
+	border-radius:50%;
+	line-height:50px;
+	text-align:center;
+	font-weight:bold;
+	font-size:18px;
+	text-decoration:none;
+	position:absolute;
+	right:50%;
+	top:60%;
+	margin:-50px 0 0 -50px;
+	display:none;
+	}
+#screen_msg > h3{
+	position:absolute;
+	width:600px;
+	height:50px;
+	text-align:center;
+	color:#00a8e2;
+	top:50%;
+	left:50%;
+	margin:-25px 0 0 -300px;
+	}
+#screen > img{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-25px 0 0 -25px;
+	z-index:100000000000;
+	}
